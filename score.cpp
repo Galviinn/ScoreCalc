@@ -3,7 +3,7 @@
 using namespace std;
 
 int score[10];
-float Average(int arr[], int size);
+double Average(int arr[], int size);
 int MaxVal(int arr[], int size);
 int MinVal(int arr[], int size);
 
@@ -33,7 +33,7 @@ int main(){
     return 0;
 }
 
-float Average(int arr[], int size){
+double Average(int arr[], int size){
     int i, sum = 0;
     float avg;
 
