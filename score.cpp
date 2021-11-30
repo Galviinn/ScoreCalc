@@ -40,7 +40,10 @@ double Average(int arr[], int size){
     for(i = 0; i < size; i++){
         sum += arr[i];
     }
-    avg = float(sum) / size;
+    
+    size = size - 1;
+    
+    avg = double(sum) / size;
     return avg;
 }
 
